@@ -103,6 +103,20 @@ Express middleware that injects dark mode toggle into Swagger UI pages.
 
 CSS string containing dark mode styles for Swagger UI.
 
+## Examples
+
+### Nest JS Example
+
+![nestjs-example](./resources/images/nest-js-example.png)
+
+### Nest JS Request Example
+
+![nestjs-request-example](./resources/images/request-example.png)
+
+### Express JS Example
+
+![express-js-example](./resources/images/express-js-example.png)
+
 ## License
 
 MIT
