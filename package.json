@@ -1,0 +1,48 @@
+{
+  "name": "@debiprasadmishra50/swagger-dark-mode",
+  "version": "1.0.0",
+  "description": "A simple middleware to add dark mode functionality to Swagger UI",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "swagger",
+    "swagger-ui",
+    "dark-mode",
+    "express",
+    "middleware",
+    "api-documentation",
+    "theme",
+    "typescript"
+  ],
+  "author": "Debi Prasad Mishra <debiprasadmishra50@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/debiprasadmishra50/swagger-dark-mode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/debiprasadmishra50/swagger-dark-mode/issues"
+  },
+  "homepage": "https://github.com/debiprasadmishra50/swagger-dark-mode#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "express": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
