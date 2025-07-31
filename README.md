@@ -5,7 +5,7 @@ A simple middleware that adds dark mode functionality to Swagger UI with a toggl
 ## Installation
 
 ```bash
-npm install @debiprasadmishra50/@debiprasadmishra50/swagger-dark-mode
+npm install @debiprasadmishra50/swagger-dark-mode
 ```
 
 ## Usage
